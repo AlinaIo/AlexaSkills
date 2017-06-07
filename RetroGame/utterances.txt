@@ -1,0 +1,20 @@
+PlayGameIntent {z|Text}
+PlayGameIntent {z z|Text}
+SelectGameIntent select {z|Game}
+SelectGameIntent select {z z|Game}
+SelectGameIntent choose {z|Game}
+SelectGameIntent choose {z z|Game}
+SelectGameIntent play {z|Game}
+SelectGameIntent play {z z|Game}
+ListGamesIntent list games
+ListGamesIntent list all
+ListSavedGamesIntent list saved game
+ListSavedGamesIntent list saved games
+ListSavedGamesIntent list saved
+ResetGameIntent reset progress for {z|GameToReset}
+ResetGameIntent reset progress for {z z|GameToReset}
+ResetGameIntent reset game {z|GameToReset}
+ResetGameIntent reset game {z z|GameToReset}
+ResetGameIntent reset {z|GameToReset}
+ResetGameIntent reset {z z|GameToReset}
+
